@@ -7,4 +7,4 @@ LeetCode solutions in Go.
 - **[7. Reverse Integer (Easy)](https://leetcode.com/problems/reverse-integer/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/7_reverse_integer/reverse_integer.go) 
 - **[9. Palindrome Number (Easy)](https://leetcode.com/problems/palindrome-number/)** - [solution]() 
 - **[13. Roman To Integer (Easy)](https://leetcode.com/problems/roman-to-integer/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/13_roman_to_integer/roman_to_integer.go) 
-- **[1929. Concatenation of Array (Easy)](https://leetcode.com/problems/concatenation-of-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1929_concatenation_of_array/main.go) 
+- **[1929. Concatenation of Array (Easy)](https://leetcode.com/problems/concatenation-of-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1929_concatenation_of_array/concatenation_of_array.go) 
