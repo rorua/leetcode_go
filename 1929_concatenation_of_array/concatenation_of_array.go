@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
-
 func getConcatenation(nums []int) []int {
 	n := len(nums)
 	ans := make([]int, 2*n)
@@ -13,9 +8,4 @@ func getConcatenation(nums []int) []int {
 		ans[i+n] = nums[i]
 	}
 	return ans
-}
-
-func main() {
-	fmt.Println(getConcatenation([]int{1, 2, 1}))
-	strconv.Atoi("123")
 }
