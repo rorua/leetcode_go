@@ -20,6 +20,7 @@ LeetCode solutions in Go.
 - **[226. Invert Binary Tree (Easy)](https://leetcode.com/problems/invert-binary-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/226_invert_binary_tree/invert_binary_tree.go) 
 - **[234. Palindrome Linked List (Easy)](https://leetcode.com/problems/palindrome-linked-list/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/234_palindrome_linked_list/palindrome_linked_list.go) 
 - **[242. Valid Anagram (Easy)](https://leetcode.com/problems/valid-anagram/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/242_valid_anagram/valid_anagram.go) 
+- **[383. Ransom Note (Easy)](https://leetcode.com/problems/ransom-note/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/383_ransom_note/ransom_note.go) 
 - **[387. First Unique Character in a String (Easy)](https://leetcode.com/problems/first-unique-character-in-a-string/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/387_first_unique_character_in_a_string/first_unique_character_in_a_string.go) 
 - **[404. Sum of Left Leaves (Easy)](https://leetcode.com/problems/sum-of-left-leaves/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/404_sum_of_left_leaves/sum_of_left_leaves.go) 
 - **[704. Binary Search (Easy)](https://leetcode.com/problems/binary-search/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/704_binary_search/binary_search.go) 
