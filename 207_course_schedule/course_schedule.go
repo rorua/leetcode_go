@@ -1,4 +1,4 @@
-package main
+package course_schedule
 
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	graph := make([][]int, numCourses)
@@ -23,9 +23,4 @@ func visit(graph [][]int, visited map[int]int, vertex int) bool {
 	}
 	delete(visited, vertex)
 	return false
-}
-
-
-func main() {
-	canFinish(3, [][]int{{1,0},{0,1},{2,1}})
 }
