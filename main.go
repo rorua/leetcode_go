@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	graph := make([][]int, numCourses)
 	for i := 0; i < len(prerequisites); i++ {
@@ -25,7 +27,27 @@ func visit(graph [][]int, visited map[int]int, vertex int) bool {
 	return false
 }
 
+func singleNumber(nums []int) int {
+	uniq := 0
+	for _, num := range nums {
+		curU := uniq
+		uniq = uniq ^ num
+		fmt.Printf("cur = %d, num = %d, res=%d^%d = %d\n", curU, num, curU, num, uniq)
+	}
+	return uniq
+}
+
+func moveZeroes(nums []int) {
+	l, r := 0, 0
+	for l < len(nums) && r < len(nums) {
+		if nums[r] != 0 {
+			nums[l], nums[r] = nums[r], nums[l]
+			l++
+		}
+		r++
+	}
+}
 
 func main() {
-	canFinish(3, [][]int{{1,0},{0,1},{2,1}})
+	moveZeroes([]int{1, 2, 0, 3, 0, 4, 3, 0, 5})
 }
