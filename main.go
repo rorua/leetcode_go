@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	valid_parentheses "leetcode/20_valid_parentheses"
+)
 
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	graph := make([][]int, numCourses)
@@ -49,5 +52,6 @@ func moveZeroes(nums []int) {
 }
 
 func main() {
-	moveZeroes([]int{1, 2, 0, 3, 0, 4, 3, 0, 5})
+	//moveZeroes([]int{1, 2, 0, 3, 0, 4, 3, 0, 5})
+	fmt.Printf("%v", valid_parentheses.IsValid("()[()]"))
 }
