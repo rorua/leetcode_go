@@ -16,6 +16,7 @@ LeetCode solutions in Go.
 - **[79. Word Search (Medium)](https://leetcode.com/problems/word-search/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/79_word_search/79_word_search.go)
 - **[94. Binary Tree Inorder Traversal (Easy)](https://leetcode.com/problems/binary-tree-inorder-traversal/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/94_binary_tree_inorder_traversal/binary_tree_inorder_traversal.go)
 - **[98. Validate Binary Search Tree (Medium)](https://leetcode.com/problems/validate-binary-search-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/98_validate_binary_search_tree/validate_binary_search_tree.go)
+- **[101. Symmetric Tree (Easy)](https://leetcode.com/problems/symmetric-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/101_symmetric_tree/symmetric_tree.go) 
 - **[121. Best Time to Buy and Sell Stock (Easy)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)** - [solution](https://github.com/rorua/leetcode_go/blob/master/121_best_time_to_buy_sell_stock/best_time_to_buy_sell_stock.go) 
 - **[136. Single Number(Easy)](https://leetcode.com/problems/single-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/136_single_number/single_number.go) 
 - **[141. Linked List Cycle (Easy)](https://leetcode.com/problems/linked-list-cycle/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/141_linked_list_cycle/linked_list_cycle.go) 
