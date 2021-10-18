@@ -1,51 +1,166 @@
 # LeetCode
 LeetCode solutions in Go.
 
-- **[1. Two Sum (Easy)](https://leetcode.com/problems/two-sum/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1_two_sum/two_sum.go)
-- **[2. Add Two Numbers (Medium)](https://leetcode.com/problems/add-two-numbers/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/2_add_two_numbers/main.go)
-- **[3. Longest Substring Without Repeating Characters (Medium)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/3_longest_substring_without_repeating_characters/main.go) 
-- **[7. Reverse Integer (Easy)](https://leetcode.com/problems/reverse-integer/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/7_reverse_integer/reverse_integer.go) 
-- **[9. Palindrome Number (Easy)](https://leetcode.com/problems/palindrome-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/9_palindrome_number/palindrome_number.go) 
-- **[13. Roman To Integer (Easy)](https://leetcode.com/problems/roman-to-integer/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/13_roman_to_integer/roman_to_integer.go) 
-- **[14. Longest Common Prefix (Easy)](https://leetcode.com/problems/longest-common-prefix/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/14_longest_common_prefix/longest_common_prefix.go) 
-- **[17. Letter Combinations of a Phone Number(Medium)](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/17_letter_combinations_of_a_phone_number/letter_combinations_of_a_phone_number.go) 
-- **[20. Valid Parentheses (Easy)](https://leetcode.com/problems/valid-parentheses/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/20_valid_parentheses/valid_parentheses.go) 
-- **[48. Rotate Image (Medium)](https://leetcode.com/problems/rotate-image/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/48_rotate_image/rotate_image.go)
-- **[53. Maximum Subarray(Easy)](https://leetcode.com/problems/maximum-subarray/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/53_maximum_subarray/maximum_subarray.go)
-- **[70. Climbing Stairs (Easy)](https://leetcode.com/problems/climbing-stairs/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/70_climbing_stairs/climbing_stairs.go)
-- **[79. Word Search (Medium)](https://leetcode.com/problems/word-search/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/79_word_search/79_word_search.go)
-- **[94. Binary Tree Inorder Traversal (Easy)](https://leetcode.com/problems/binary-tree-inorder-traversal/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/94_binary_tree_inorder_traversal/binary_tree_inorder_traversal.go)
-- **[98. Validate Binary Search Tree (Medium)](https://leetcode.com/problems/validate-binary-search-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/98_validate_binary_search_tree/validate_binary_search_tree.go)
-- **[101. Symmetric Tree (Easy)](https://leetcode.com/problems/symmetric-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/101_symmetric_tree/symmetric_tree.go) 
-- **[121. Best Time to Buy and Sell Stock (Easy)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)** - [solution](https://github.com/rorua/leetcode_go/blob/master/121_best_time_to_buy_sell_stock/best_time_to_buy_sell_stock.go) 
-- **[136. Single Number(Easy)](https://leetcode.com/problems/single-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/136_single_number/single_number.go) 
-- **[141. Linked List Cycle (Easy)](https://leetcode.com/problems/linked-list-cycle/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/141_linked_list_cycle/linked_list_cycle.go) 
-- **[144. Binary Tree Preorder Traversal (Easy)](https://leetcode.com/problems/binary-tree-preorder-traversal/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/144_binary_tree_preorder_traversal/binary_tree_preorder_traversal.go) 
-- **[155. Min Stack (Easy)](https://leetcode.com/problems/min-stack/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/155_min_stack/min_stack.go) 
-- **[167. Two Sum II - Input array is sorted (Easy)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/167_two_sum_2/two_sum_2.go) 
-- **[169. Majority Element (Easy)](https://leetcode.com/problems/majority-element/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/169_majority_element/majority_element.go) 
-- **[189. Rotate Array (Medium)](https://leetcode.com/problems/rotate-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/189_rotate_array/rotate_array.go)
-- **[191. Number of 1 Bits (Easy)](https://leetcode.com/problems/number-of-1-bits/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/191_number_of_1_bits/number_of_1_bits.go) 
-- **[200. Number of Islands (Medium)](https://leetcode.com/problems/number-of-islands/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/200_number_of_islands/number_of_islands.go)
-- **[206. Reverse Linked List (Easy)](https://leetcode.com/problems/reverse-linked-list/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/206_reverse_linked_list/reverse_linked_list.go) 
-- **[217. Contains Duplicate (Easy)](https://leetcode.com/problems/contains-duplicate/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/217_contains_duplicate/contains_duplicate.go) 
-- **[226. Invert Binary Tree (Easy)](https://leetcode.com/problems/invert-binary-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/226_invert_binary_tree/invert_binary_tree.go) 
-- **[234. Palindrome Linked List (Easy)](https://leetcode.com/problems/palindrome-linked-list/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/234_palindrome_linked_list/palindrome_linked_list.go) 
-- **[242. Valid Anagram (Easy)](https://leetcode.com/problems/valid-anagram/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/242_valid_anagram/valid_anagram.go) 
-- **[283. Move Zeroes (Easy)](https://leetcode.com/problems/move-zeroes/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/283_move_zeroes/move_zeroes.go) 
-- **[338. Counting Bits (Easy)](https://leetcode.com/problems/counting-bits/submissions/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/338_counting_bits/counting_bits.go) 
-- **[383. Ransom Note (Easy)](https://leetcode.com/problems/ransom-note/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/383_ransom_note/ransom_note.go) 
-- **[387. First Unique Character in a String (Easy)](https://leetcode.com/problems/first-unique-character-in-a-string/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/387_first_unique_character_in_a_string/first_unique_character_in_a_string.go) 
-- **[404. Sum of Left Leaves (Easy)](https://leetcode.com/problems/sum-of-left-leaves/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/404_sum_of_left_leaves/sum_of_left_leaves.go) 
-- **[617. Merge Two Binary Trees (Easy)](https://leetcode.com/problems/merge-two-binary-trees/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/617_merge_two_binary_trees/merge_two_binary_trees.go) 
-- **[704. Binary Search (Easy)](https://leetcode.com/problems/binary-search/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/704_binary_search/binary_search.go) 
-- **[724. Find Pivot Index (Easy)](https://leetcode.com/problems/find-pivot-index/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/724_find_pivot_index/find_pivot_index.go) 
-- **[859. Buddy Strings (Easy)](https://leetcode.com/problems/buddy-strings/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/859_buddy_strings/buddy_strings.go) 
-- **[912. Sort an Array (Medium)](https://leetcode.com/problems/sort-an-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/912_sort_an_array/sort_an_array.go) 
-- **[1089. Duplicate Zeros(Easy)](https://leetcode.com/problems/duplicate-zeros/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1089_duplicate_zeros/duplicate_zeros.go) 
-- **[1108. Defanging an IP Address (Easy)](https://leetcode.com/problems/defanging-an-ip-address/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1108_defanging_an_ip_address/defanging_an_ip_address.go) 
-- **[1394. Find Lucky Integer in an Array (Easy)](https://leetcode.com/problems/find-lucky-integer-in-an-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1394_find_lucky_integer/find_lucky_integer.go) 
-- **[1480. Running Sum of 1d Array (Easy)](https://leetcode.com/problems/running-sum-of-1d-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1480_running_sum_of_1d_array/running_sum_of_1d_array.go) 
-- **[1790. Check if One String Swap Can Make Strings Equal (Easy)](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1790_check_if_one_string_swap_can_make_strings_equal/check_if_one_string_swap_can_make_strings_equal.go) 
-- **[1925. Count Square Sum Triples (Easy)](https://leetcode.com/problems/count-square-sum-triples/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1925_count_square_sum_triples/count_square_sum_triples.go) 
-- **[1929. Concatenation of Array (Easy)](https://leetcode.com/problems/concatenation-of-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1929_concatenation_of_array/concatenation_of_array.go) 
+- **[1. Two Sum](https://leetcode.com/problems/two-sum/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1_two_sum/two_sum.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+  - **Notes:** use hash map to instantly check for difference value
+  - **Tutorials:** [NeetCode](https://youtu.be/KLlXCFG5TnA), [Kevin Naughton Jr.](https://www.youtube.com/watch?v=Aql6zHkONek), [Nick White
+  ](https://www.youtube.com/watch?v=BoHO04xVeU0)
+  - **Asked By:** Facebook, Google, Amazon, Bloomberg
+- **[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/2_add_two_numbers/main.go)
+  - **Difficulty:** Medium
+  - **Category:** Linked List
+- **[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/3_longest_substring_without_repeating_characters/main.go) 
+  - **Difficulty:** Medium
+  - **Category:** String
+- **[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/7_reverse_integer/reverse_integer.go)
+  - **Difficulty:** Easy
+- **[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/9_palindrome_number/palindrome_number.go)
+  - **Difficulty:** Easy
+- **[13. Roman To Integer](https://leetcode.com/problems/roman-to-integer/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/13_roman_to_integer/roman_to_integer.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/14_longest_common_prefix/longest_common_prefix.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/17_letter_combinations_of_a_phone_number/letter_combinations_of_a_phone_number.go) 
+  - **Difficulty:** Medium
+  - **Category:** String
+- **[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/20_valid_parentheses/valid_parentheses.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/21_merge_two_sorted_lists/merge_two_sorted_lists.go)
+  - **Difficulty:** Easy
+  - **Category:** Linked List
+  - **Notes:** insert each node from one list into the other
+  - **Tutorials:** [NeetCode](https://www.youtube.com/watch?v=XIdigk956u0)
+  - **Asked By:** Microsoft
+- **[48. Rotate Image](https://leetcode.com/problems/rotate-image/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/48_rotate_image/rotate_image.go)
+  - **Difficulty:** Medium
+  - **Category:** Array, Matrix
+- **[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/53_maximum_subarray/maximum_subarray.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/70_climbing_stairs/climbing_stairs.go)
+  - **Difficulty:** Easy
+  - **Category:** Dynamic Programming
+- **[79. Word Search](https://leetcode.com/problems/word-search/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/79_word_search/79_word_search.go)
+  - **Difficulty:** Medium
+  - **Category:** Matrix
+- **[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/94_binary_tree_inorder_traversal/binary_tree_inorder_traversal.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+- **[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/98_validate_binary_search_tree/validate_binary_search_tree.go)
+  - **Difficulty:** Medium
+  - **Category:** Tree
+- **[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/101_symmetric_tree/symmetric_tree.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+- **[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/104_max_depth_of_binary_tree/max_depth_of_binary_tree.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+  - **Notes:** recursive dfs to find max-depth of subtrees
+  - **Tutorials:** [NeetCode](https://www.youtube.com/watch?v=hTM3phVI6YQ)
+- **[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)** - [solution](https://github.com/rorua/leetcode_go/blob/master/121_best_time_to_buy_sell_stock/best_time_to_buy_sell_stock.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[136. Single Number](https://leetcode.com/problems/single-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/136_single_number/single_number.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/141_linked_list_cycle/linked_list_cycle.go)
+  - **Difficulty:** Easy
+  - **Category:** Linked List
+- **[144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/144_binary_tree_preorder_traversal/binary_tree_preorder_traversal.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+- **[155. Min Stack](https://leetcode.com/problems/min-stack/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/155_min_stack/min_stack.go)
+  - **Difficulty**: Easy
+  - **Category:** Stack
+- **[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/160_intersection_of_two_linked_lists/intersection_of_two_linked_lists.go)
+  - **Difficulty:** Easy
+  - **Category:** Linked List
+  - **Notes:** use hash map of visited nodes, return first intercept node... 
+  - **Tutorials:** [Kevin Naughton Jr.](https://www.youtube.com/watch?v=CPXIkMWNn5Q), [Nick White](https://www.youtube.com/watch?v=IpBfg9d4dmQ)
+  - **Asked By:** Amazon, Microsoft, Bloomberg, Oracle, Yahoo
+- **[167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/167_two_sum_2/two_sum_2.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[169. Majority Element](https://leetcode.com/problems/majority-element/)** - [not solved yet](https://github.com/rorua/leetcode_go/blob/master/169_majority_element/majority_element.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[189. Rotate Array](https://leetcode.com/problems/rotate-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/189_rotate_array/rotate_array.go)
+  - **Difficulty:** Medium
+  - **Category:** Array
+- **[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/191_number_of_1_bits/number_of_1_bits.go)
+  - **Difficulty:** Easy
+- **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/200_number_of_islands/number_of_islands.go)
+  - **Difficulty:** Medium
+  - **Category:** Matrix, Array
+- **[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/206_reverse_linked_list/reverse_linked_list.go)
+  - **Difficulty:** Easy
+  - **Category:** Linked List
+- **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/217_contains_duplicate/contains_duplicate.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/226_invert_binary_tree/invert_binary_tree.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+- **[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/234_palindrome_linked_list/palindrome_linked_list.go)
+  - **Difficulty:** Easy
+  - **Category:** Linked List
+- **[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/242_valid_anagram/valid_anagram.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/283_move_zeroes/move_zeroes.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[338. Counting Bits](https://leetcode.com/problems/counting-bits/submissions/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/338_counting_bits/counting_bits.go)
+  - **Difficulty:** Easy
+- **[383. Ransom Note](https://leetcode.com/problems/ransom-note/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/383_ransom_note/ransom_note.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/387_first_unique_character_in_a_string/first_unique_character_in_a_string.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/404_sum_of_left_leaves/sum_of_left_leaves.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+- **[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/543_diameter_of_binary_tree/diameter_of_binary_tree.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+- **[617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/617_merge_two_binary_trees/merge_two_binary_trees.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+- **[704. Binary Search](https://leetcode.com/problems/binary-search/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/704_binary_search/binary_search.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree, Array
+- **[724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/724_find_pivot_index/find_pivot_index.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[859. Buddy Strings](https://leetcode.com/problems/buddy-strings/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/859_buddy_strings/buddy_strings.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[912. Sort an Array](https://leetcode.com/problems/sort-an-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/912_sort_an_array/sort_an_array.go) 
+  - **Difficulty:** Medium
+  - **Category:** Array
+- **[1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1089_duplicate_zeros/duplicate_zeros.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1108_defanging_an_ip_address/defanging_an_ip_address.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[1394. Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1394_find_lucky_integer/find_lucky_integer.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1480_running_sum_of_1d_array/running_sum_of_1d_array.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
+- **[1790. Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1790_check_if_one_string_swap_can_make_strings_equal/check_if_one_string_swap_can_make_strings_equal.go)
+  - **Difficulty:** Easy
+  - **Category:** String
+- **[1925. Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1925_count_square_sum_triples/count_square_sum_triples.go)
+  - **Difficulty:** Easy
+- **[1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/1929_concatenation_of_array/concatenation_of_array.go)
+  - **Difficulty:** Easy
+  - **Category:** Array
