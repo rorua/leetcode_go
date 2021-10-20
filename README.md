@@ -41,13 +41,21 @@ LeetCode solutions in Go.
   - **Category:** Array, Matrix
 - **[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/53_maximum_subarray/maximum_subarray.go)
   - **Difficulty:** Easy
-  - **Category:** Array
+  - **Category:** Arrays
+  - **Notes:** pattern: prev subarray can't be negative, dynamic programming: compute max sum for each prefix, sliding window 
+  - **Tutorials:** [NeetCode](https://www.youtube.com/watch?v=5WZl3MMT0Eg)
+  - **Asked By:** Amazon
 - **[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/70_climbing_stairs/climbing_stairs.go)
   - **Difficulty:** Easy
   - **Category:** Dynamic Programming
 - **[79. Word Search](https://leetcode.com/problems/word-search/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/79_word_search/79_word_search.go)
   - **Difficulty:** Medium
   - **Category:** Matrix
+- **[91. Decode Ways](https://leetcode.com/problems/decode-ways/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/)
+  - **Difficulty:** Medium
+  - **Category:** String, Dynamic Programming
+  - **Tutorials:** [NeetCode](https://www.youtube.com/watch?v=6aEyTjOwlJU), [Kevin Naughton Jr.](https://www.youtube.com/watch?v=cQX3yHS0cLo)
+  - **Asked By:** Facebook, Microsoft, Uber, Google, Twitter, Bloomberg
 - **[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/94_binary_tree_inorder_traversal/binary_tree_inorder_traversal.go)
   - **Difficulty:** Easy
   - **Category:** Tree
@@ -64,7 +72,9 @@ LeetCode solutions in Go.
   - **Tutorials:** [NeetCode](https://www.youtube.com/watch?v=hTM3phVI6YQ)
 - **[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)** - [solution](https://github.com/rorua/leetcode_go/blob/master/121_best_time_to_buy_sell_stock/best_time_to_buy_sell_stock.go)
   - **Difficulty:** Easy
-  - **Category:** Array
+  - **Category:** Arrays, Dynamic Programming
+  - **Tutorials:** [NeetCode](https://youtu.be/1pkOgXD63yU)
+  - **Notes:** find local min and search for local max, sliding window;
 - **[136. Single Number](https://leetcode.com/problems/single-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/136_single_number/single_number.go)
   - **Difficulty:** Easy
   - **Category:** Array
@@ -92,8 +102,16 @@ LeetCode solutions in Go.
 - **[189. Rotate Array](https://leetcode.com/problems/rotate-array/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/189_rotate_array/rotate_array.go)
   - **Difficulty:** Medium
   - **Category:** Array
+- **[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/190_reverse_bits/reverse_bits.go)
+  - **Difficulty:** Easy
+  - **Category:** Bit Manipulation
+  - **Tutorials:** [NeetCode](https://www.youtube.com/watch?v=UcoN6UjAI64)
+  - **Notes:** reverse each of 32 bits bit by bit
 - **[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/191_number_of_1_bits/number_of_1_bits.go)
   - **Difficulty:** Easy
+  - **Category:** Bit Manipulation
+  - **Notes:** Hamming weight. mod and div are expensive, to divide use bit shift, instead of mod to get 1's place use bitwise & 1
+  - **Tutorials:** [NeetCode](https://www.youtube.com/watch?v=5Km3utixwZs)
 - **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/200_number_of_islands/number_of_islands.go)
   - **Difficulty:** Medium
   - **Category:** Matrix, Array
@@ -102,7 +120,8 @@ LeetCode solutions in Go.
   - **Category:** Linked List
 - **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/217_contains_duplicate/contains_duplicate.go)
   - **Difficulty:** Easy
-  - **Category:** Array
+  - **Category:** Arrays
+  - **Notes:** hashmap to get unique values in array, to check for duplicates easily
 - **[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/226_invert_binary_tree/invert_binary_tree.go)
   - **Difficulty:** Easy
   - **Category:** Tree
@@ -112,11 +131,18 @@ LeetCode solutions in Go.
 - **[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/242_valid_anagram/valid_anagram.go)
   - **Difficulty:** Easy
   - **Category:** String
+- **[268. Missing Number](https://leetcode.com/problems/missing-number/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/268_missing_number/missing_number.go)
+  - **Difficulty:** Easy
+  - **Category:** Arrays, Hash Table, Binary
+  - **Notes:** 1st - using hashmap, and find absent; 2nd- using xor operator, to find absent; 3rd - calculate sums of array and sub it.
+  - **Tutorials:** [NeetCode](https://www.youtube.com/watch?v=WnPLSRLSANE)
 - **[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/283_move_zeroes/move_zeroes.go)
   - **Difficulty:** Easy
   - **Category:** Array
 - **[338. Counting Bits](https://leetcode.com/problems/counting-bits/submissions/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/338_counting_bits/counting_bits.go)
   - **Difficulty:** Easy
+  - **Category:** Bit Manipulation, Dynamic Programming
+  - **Tutorials:** [NeetCode](https://youtu.be/RyBM56RIWrM)
 - **[383. Ransom Note](https://leetcode.com/problems/ransom-note/)** - [solution](https://github.com/rorua/leetcode_go/blob/master/383_ransom_note/ransom_note.go)
   - **Difficulty:** Easy
   - **Category:** String
