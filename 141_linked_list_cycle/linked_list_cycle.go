@@ -5,13 +5,6 @@ type ListNode struct {
 	Next *ListNode
 }
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func hasCycle(head *ListNode) bool {
 	if head == nil {
 		return false
@@ -26,5 +19,20 @@ func hasCycle(head *ListNode) bool {
 		}
 	}
 
+	return false
+}
+
+//using hashmap
+func hasCycle2(head *ListNode) bool {
+	if head == nil {
+		return false
+	}
+	m:= make(map[*ListNode]bool)
+	for head != nil {
+		if _, found := m[head]; found {
+			return true
+		}
+		head = head.Next
+	}
 	return false
 }

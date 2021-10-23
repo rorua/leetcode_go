@@ -6,7 +6,7 @@ LeetCode solutions in Go.
     - **Difficulty:** Easy
     - **Category:** Array
     - **Notes:** use hash map to instantly check for difference value
-    - **Solution:** [NeetCode](https://youtu.be/KLlXCFG5TnA)
+    - **Tutorial:** [NeetCode](https://youtu.be/KLlXCFG5TnA)
       , [Kevin Naughton Jr.](https://www.youtube.com/watch?v=Aql6zHkONek), [Nick White
       ](https://www.youtube.com/watch?v=BoHO04xVeU0)
     - **Asked By:** Facebook, Google, Amazon, Bloomberg
@@ -36,7 +36,7 @@ LeetCode solutions in Go.
     - **Difficulty:** Easy
     - **Category:** Linked List
     - **Notes:** insert each node from one list into the other
-    - **Solution:** [NeetCode](https://www.youtube.com/watch?v=XIdigk956u0)
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=XIdigk956u0)
     - **Asked By:** Microsoft
 - **[48. Rotate Image](https://leetcode.com/problems/rotate-image/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/48_rotate_image/rotate_image.go)
     - **Difficulty:** Medium
@@ -46,18 +46,19 @@ LeetCode solutions in Go.
     - **Category:** Arrays
     - **Notes:** pattern: prev subarray can't be negative, dynamic programming: compute max sum for each prefix, sliding
       window
-    - **Solution:** [NeetCode](https://www.youtube.com/watch?v=5WZl3MMT0Eg)
+    - **Tutorial:** [NeetCode](https://www.youtube.com/watch?v=5WZl3MMT0Eg)
     - **Asked By:** Amazon
 - **[55. Jump Game](https://leetcode.com/problems/maximum-subarray/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/55_jump_game/jump_game.go)
     - **Difficulty:** Medium
     - **Category:** Dynamic Programming, Arrays
     - **Notes:** visualize the recursive tree, cache solution for O(n) time/mem complexity, iterative is O(1) mem, just
       iterate backwards to see if element can reach goal node, if yes, then set it equal to goal node, continue;
-    - **Solution:** [NeetCode - Python](https://www.youtube.com/watch?v=Yan0cv2cLy8), [Nick White - Java](https://www.youtube.com/watch?v=Zb4eRjuPHbM)
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=Yan0cv2cLy8)
+      , [Nick White - Java](https://www.youtube.com/watch?v=Zb4eRjuPHbM)
 - **[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/70_climbing_stairs/climbing_stairs.go)
     - **Difficulty:** Easy
     - **Category:** Dynamic Programming, Caching - Memoization
-    - **Solution:** [NeetCode](https://youtu.be/Y0lT9Fck7qI)
+    - **Tutorial:** [NeetCode](https://youtu.be/Y0lT9Fck7qI)
       , [Kevin Naughton Jr.](https://www.youtube.com/watch?v=uHAToNgAPaM)
     - **Notes:** subproblem find (n-1) and (n-2), sum = n;
     - **Asked By:** Google
@@ -67,7 +68,7 @@ LeetCode solutions in Go.
 - **[91. Decode Ways](https://leetcode.com/problems/decode-ways/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/)
     - **Difficulty:** Medium
     - **Category:** String, Dynamic Programming
-    - **Solution:** [NeetCode](https://www.youtube.com/watch?v=6aEyTjOwlJU)
+    - **Tutorial:** [NeetCode](https://www.youtube.com/watch?v=6aEyTjOwlJU)
       , [Kevin Naughton Jr.](https://www.youtube.com/watch?v=cQX3yHS0cLo)
     - **Asked By:** Facebook, Microsoft, Uber, Google, Twitter, Bloomberg
 - **[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/94_binary_tree_inorder_traversal/binary_tree_inorder_traversal.go)
@@ -83,11 +84,11 @@ LeetCode solutions in Go.
     - **Difficulty:** Easy
     - **Category:** Tree
     - **Notes:** recursive dfs to find max-depth of subtrees
-    - **Solution:** [NeetCode](https://www.youtube.com/watch?v=hTM3phVI6YQ)
+    - **Tutorial:** [NeetCode](https://www.youtube.com/watch?v=hTM3phVI6YQ)
 - **[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)**: [solution](https://github.com/rorua/leetcode_go/blob/master/121_best_time_to_buy_sell_stock/best_time_to_buy_sell_stock.go)
     - **Difficulty:** Easy
     - **Category:** Arrays, Dynamic Programming
-    - **Solution:** [NeetCode](https://youtu.be/1pkOgXD63yU)
+    - **Tutorial:** [NeetCode](https://youtu.be/1pkOgXD63yU)
     - **Notes:** find local min and search for local max, sliding window;
 - **[136. Single Number](https://leetcode.com/problems/single-number/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/136_single_number/single_number.go)
     - **Difficulty:** Easy
@@ -95,6 +96,8 @@ LeetCode solutions in Go.
 - **[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/141_linked_list_cycle/linked_list_cycle.go)
     - **Difficulty:** Easy
     - **Category:** Linked List
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=gBTe7lFR3vc), [Nick White - Java](https://www.youtube.com/watch?v=6OrZ4wAy4uE)
+    - **Notes:** 1 - dict to remember visited nodes; 2 - two pointers at different speeds, if they meet there is loop
 - **[144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/144_binary_tree_preorder_traversal/binary_tree_preorder_traversal.go)
     - **Difficulty:** Easy
     - **Category:** Tree
@@ -105,7 +108,7 @@ LeetCode solutions in Go.
     - **Difficulty:** Easy
     - **Category:** Linked List
     - **Notes:** use hash map of visited nodes, return first intercept node...
-    - **Solution:** [Kevin Naughton Jr.](https://www.youtube.com/watch?v=CPXIkMWNn5Q)
+    - **Tutorial:** [Kevin Naughton Jr.](https://www.youtube.com/watch?v=CPXIkMWNn5Q)
       , [Nick White](https://www.youtube.com/watch?v=IpBfg9d4dmQ)
     - **Asked By:** Amazon, Microsoft, Bloomberg, Oracle, Yahoo
 - **[167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/167_two_sum_2/two_sum_2.go)
@@ -121,20 +124,20 @@ LeetCode solutions in Go.
 - **[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/190_reverse_bits/reverse_bits.go)
     - **Difficulty:** Easy
     - **Category:** Bit Manipulation
-    - **Solution:** [NeetCode](https://www.youtube.com/watch?v=UcoN6UjAI64)
+    - **Tutorial:** [NeetCode](https://www.youtube.com/watch?v=UcoN6UjAI64)
     - **Notes:** reverse each of 32 bits bit by bit
 - **[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/191_number_of_1_bits/number_of_1_bits.go)
     - **Difficulty:** Easy
     - **Category:** Bit Manipulation
     - **Notes:** Hamming weight. mod and div are expensive, to divide use bit shift, instead of mod to get 1's place use
       bitwise & 1
-    - **Solution:** [NeetCode](https://www.youtube.com/watch?v=5Km3utixwZs)
+    - **Tutorial:** [NeetCode](https://www.youtube.com/watch?v=5Km3utixwZs)
 - **[198. House Robber](https://leetcode.com/problems/house-robber/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/198_house_robber/house_robber.go)
     - **Difficulty:** Medium
     - **Category:** Dynamic Programming
     - **Notes:** for each num, get max of prev subarr, or num + prev subarr not including last element, store results of
       prev, and prev not including last element
-    - **Solution:** [NeetCode - Python](https://www.youtube.com/watch?v=73r3KWiEvyk)
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=73r3KWiEvyk)
       , [Nick White - Java](https://www.youtube.com/watch?v=ZwDDLAeeBM0)
 - **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/200_number_of_islands/number_of_islands.go)
     - **Difficulty:** Medium
@@ -142,6 +145,9 @@ LeetCode solutions in Go.
 - **[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/206_reverse_linked_list/reverse_linked_list.go)
     - **Difficulty:** Easy
     - **Category:** Linked List
+    - **Notes:** iterate through maintaining cur and prev; recursively reverse, return new head of list
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=G0_I-ZF0S38)
+      , [Nick White - Java](https://www.youtube.com/watch?v=NhapasNIKuQ)
 - **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/217_contains_duplicate/contains_duplicate.go)
     - **Difficulty:** Easy
     - **Category:** Arrays
@@ -155,19 +161,20 @@ LeetCode solutions in Go.
 - **[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/242_valid_anagram/valid_anagram.go)
     - **Difficulty:** Easy
     - **Category:** String
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=9UtInBqnCgA)
 - **[268. Missing Number](https://leetcode.com/problems/missing-number/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/268_missing_number/missing_number.go)
     - **Difficulty:** Easy
     - **Category:** Arrays, Hash Table, Binary
     - **Notes:** 1st - using hashmap, and find absent; 2nd- using xor operator, to find absent; 3rd - calculate sums of
       array and sub it.
-    - **Solution:** [NeetCode](https://www.youtube.com/watch?v=WnPLSRLSANE)
+    - **Tutorial:** [NeetCode](https://www.youtube.com/watch?v=WnPLSRLSANE)
 - **[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/283_move_zeroes/move_zeroes.go)
     - **Difficulty:** Easy
     - **Category:** Array
 - **[338. Counting Bits](https://leetcode.com/problems/counting-bits/submissions/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/338_counting_bits/counting_bits.go)
     - **Difficulty:** Easy
     - **Category:** Bit Manipulation, Dynamic Programming
-    - **Solution:** [NeetCode](https://youtu.be/RyBM56RIWrM)
+    - **Tutorial:** [NeetCode](https://youtu.be/RyBM56RIWrM)
 - **[383. Ransom Note](https://leetcode.com/problems/ransom-note/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/383_ransom_note/ransom_note.go)
     - **Difficulty:** Easy
     - **Category:** String
