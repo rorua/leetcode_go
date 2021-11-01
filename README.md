@@ -32,15 +32,31 @@ LeetCode solutions in Go.
 - **[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/20_valid_parentheses/valid_parentheses.go)
     - **Difficulty:** Easy
     - **Category:** String
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=WTzjTskDFMg)
+      , [Nick White - Java](https://www.youtube.com/watch?v=9kmUaXrjizQ)
+    - **Note:** push opening brace on stack, pop if matching close brace, at end if stack empty, return true;
 - **[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/21_merge_two_sorted_lists/merge_two_sorted_lists.go)
     - **Difficulty:** Easy
     - **Category:** Linked List
     - **Notes:** insert each node from one list into the other
     - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=XIdigk956u0)
     - **Asked By:** Microsoft
+- **[35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/35_search_insert_position/search_insert_position.go)
+    - **Difficulty:** Easy
+    - **Category:** Array, Binary search
+    - **Notes:** use binary search, to find mid val, check if its match return mid, else return left pointer.
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=K-RYzDZkzCI)
 - **[48. Rotate Image](https://leetcode.com/problems/rotate-image/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/48_rotate_image/rotate_image.go)
     - **Difficulty:** Medium
-    - **Category:** Array, Matrix
+    - **Category:** String, Matrix
+- **[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/49_group_anagrams/group_anagrams.go)
+    - **Difficulty:** Medium
+    - **Category:** String, Sorting, Hash Table
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=vzdNOK2oB2E)
+      , [Kevin Naughton Jr. - Java](https://www.youtube.com/watch?v=ptgykfAEax8)
+    - **Note:** create hash table - key will be a frequency in str, then compare and add to result; for each of 26
+      chars, use count of each char in each word as tuple for key in dict, value is the list of anagrams;
+    - **Asked By:** Amazonm Google, Uber, Facebook, Microsoft, Apple
 - **[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/53_maximum_subarray/maximum_subarray.go)
     - **Difficulty:** Easy
     - **Category:** Arrays
@@ -84,10 +100,21 @@ LeetCode solutions in Go.
     - **Difficulty:** Easy
     - **Category:** Tree
     - **Notes:** recursive dfs to find max-depth of subtrees
-    - **Tutorial:** [NeetCode](https://www.youtube.com/watch?v=hTM3phVI6YQ)
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=hTM3phVI6YQ)
+- **[108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/108_convert_sorted_array_to_binary_search_tree/convert_sorted_array_to_binary_search_tree.go)
+    - **Difficulty:** Easy
+    - **Category:** Array, Binary Tree
+    - **Notes:**
+    - **Tutorial:** [Nick White - Java](https://www.youtube.com/watch?v=12omz-VAyRk)
+      , [Kevin Naughton Jr. - Java](https://www.youtube.com/watch?v=PZYTs9y4f4o)
 - **[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)**: [solution](https://github.com/rorua/leetcode_go/blob/master/121_best_time_to_buy_sell_stock/best_time_to_buy_sell_stock.go)
     - **Difficulty:** Easy
     - **Category:** Arrays, Dynamic Programming
+    - **Tutorial:** [NeetCode](https://youtu.be/1pkOgXD63yU)
+    - **Notes:** find local min and search for local max, sliding window;
+- **[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/125_valid_palindrome/valid_palindrome.go)
+    - **Difficulty:** Easy
+    - **Category:** String, Two Pointers
     - **Tutorial:** [NeetCode](https://youtu.be/1pkOgXD63yU)
     - **Notes:** find local min and search for local max, sliding window;
 - **[136. Single Number](https://leetcode.com/problems/single-number/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/136_single_number/single_number.go)
@@ -96,7 +123,8 @@ LeetCode solutions in Go.
 - **[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/141_linked_list_cycle/linked_list_cycle.go)
     - **Difficulty:** Easy
     - **Category:** Linked List
-    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=gBTe7lFR3vc), [Nick White - Java](https://www.youtube.com/watch?v=6OrZ4wAy4uE)
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=gBTe7lFR3vc)
+      , [Nick White - Java](https://www.youtube.com/watch?v=6OrZ4wAy4uE)
     - **Notes:** 1 - dict to remember visited nodes; 2 - two pointers at different speeds, if they meet there is loop
 - **[144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/144_binary_tree_preorder_traversal/binary_tree_preorder_traversal.go)
     - **Difficulty:** Easy
