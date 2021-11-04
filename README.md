@@ -93,6 +93,11 @@ LeetCode solutions in Go.
 - **[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/98_validate_binary_search_tree/validate_binary_search_tree.go)
     - **Difficulty:** Medium
     - **Category:** Tree
+- **[100. Same Tree](https://leetcode.com/problems/same-tree/)**: [solution](100_same_tree/same_tree.go)
+  - **Difficulty:** Easy
+  - **Category:** Tree
+  - **Notes:** dfs: recursively check left and right nodes of trees at the same time; iterative bfs compare each level of both trees
+  - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=vRbbcKXCxOw)
 - **[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/101_symmetric_tree/symmetric_tree.go)
     - **Difficulty:** Easy
     - **Category:** Tree
@@ -178,14 +183,22 @@ LeetCode solutions in Go.
       , [Nick White - Java](https://www.youtube.com/watch?v=NhapasNIKuQ)
 - **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/217_contains_duplicate/contains_duplicate.go)
     - **Difficulty:** Easy
-    - **Category:** Arrays
+    - **Category:** Arrays, Hash Table
     - **Notes:** hashmap to get unique values in array, to check for duplicates easily
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=3OamzN90kPg)
 - **[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/226_invert_binary_tree/invert_binary_tree.go)
     - **Difficulty:** Easy
     - **Category:** Tree
+    - **Notes:** recursive dfs to invert subtrees; bfs to invert levels, use collections.deque; iterative dfs is easy with stack if doing pre-order traversal
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=OnSn2XEQ4MY)
 - **[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/234_palindrome_linked_list/palindrome_linked_list.go)
     - **Difficulty:** Easy
     - **Category:** Linked List
+- **[235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/235_LCA_of_a_BST/LCA_of_a_BST.go)
+  - **Difficulty:** Easy
+  - **Category:** Binary Tree
+  - **Notes:** compare p, q values to curr node, base case: one is in left, other in right subtree, then curr is lca;
+  - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=gs2LMfuOR9k), [Nick White - Java](https://www.youtube.com/watch?v=6POfA8fruxI)
 - **[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/242_valid_anagram/valid_anagram.go)
     - **Difficulty:** Easy
     - **Category:** String
@@ -202,7 +215,7 @@ LeetCode solutions in Go.
 - **[338. Counting Bits](https://leetcode.com/problems/counting-bits/submissions/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/338_counting_bits/counting_bits.go)
     - **Difficulty:** Easy
     - **Category:** Bit Manipulation, Dynamic Programming
-    - **Tutorial:** [NeetCode](https://youtu.be/RyBM56RIWrM)
+    - **Tutorial:** [NeetCode - Python](https://youtu.be/RyBM56RIWrM)
 - **[383. Ransom Note](https://leetcode.com/problems/ransom-note/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/383_ransom_note/ransom_note.go)
     - **Difficulty:** Easy
     - **Category:** String
