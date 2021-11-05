@@ -26,6 +26,14 @@ LeetCode solutions in Go.
 - **[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/14_longest_common_prefix/longest_common_prefix.go)
     - **Difficulty:** Easy
     - **Category:** String
+- **[15. 3Sum](https://leetcode.com/problems/3sum/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/15_3sum/3_sum.go)
+    - **Difficulty:** Medium
+    - **Category:** Array, Two Pointers, Sorting
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=jzZsG8n2R9A)
+      , [Nick White - Java](https://www.youtube.com/watch?v=qJSPYnS35SE)
+    - **Notes:** sort array, then for each elem find other 2 elems, like in two sum 2 problem; sort input, for each
+      first element, find next two where -a = b+c, if a=prevA, skip a, if b=prevB skip b to elim duplicates; to find b,c
+      use two pointers, left/right on remaining list;
 - **[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/17_letter_combinations_of_a_phone_number/letter_combinations_of_a_phone_number.go)
     - **Difficulty:** Medium
     - **Category:** String
@@ -94,10 +102,11 @@ LeetCode solutions in Go.
     - **Difficulty:** Medium
     - **Category:** Tree
 - **[100. Same Tree](https://leetcode.com/problems/same-tree/)**: [solution](100_same_tree/same_tree.go)
-  - **Difficulty:** Easy
-  - **Category:** Tree
-  - **Notes:** dfs: recursively check left and right nodes of trees at the same time; iterative bfs compare each level of both trees
-  - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=vRbbcKXCxOw)
+    - **Difficulty:** Easy
+    - **Category:** Tree
+    - **Notes:** dfs: recursively check left and right nodes of trees at the same time; iterative bfs compare each level
+      of both trees
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=vRbbcKXCxOw)
 - **[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/101_symmetric_tree/symmetric_tree.go)
     - **Difficulty:** Easy
     - **Category:** Tree
@@ -189,16 +198,23 @@ LeetCode solutions in Go.
 - **[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/226_invert_binary_tree/invert_binary_tree.go)
     - **Difficulty:** Easy
     - **Category:** Tree
-    - **Notes:** recursive dfs to invert subtrees; bfs to invert levels, use collections.deque; iterative dfs is easy with stack if doing pre-order traversal
+    - **Notes:** recursive dfs to invert subtrees; bfs to invert levels, use collections.deque; iterative dfs is easy
+      with stack if doing pre-order traversal
     - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=OnSn2XEQ4MY)
 - **[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/234_palindrome_linked_list/palindrome_linked_list.go)
     - **Difficulty:** Easy
     - **Category:** Linked List
 - **[235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/235_LCA_of_a_BST/LCA_of_a_BST.go)
-  - **Difficulty:** Easy
-  - **Category:** Binary Tree
-  - **Notes:** compare p, q values to curr node, base case: one is in left, other in right subtree, then curr is lca;
-  - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=gs2LMfuOR9k), [Nick White - Java](https://www.youtube.com/watch?v=6POfA8fruxI)
+    - **Difficulty:** Easy
+    - **Category:** Binary Tree
+    - **Notes:** compare p, q values to curr node, base case: one is in left, other in right subtree, then curr is lca;
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=gs2LMfuOR9k)
+      , [Nick White - Java](https://www.youtube.com/watch?v=6POfA8fruxI)
+- **[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/238_product_of_array_except_self/product_of_array_except_self.go)
+    - **Difficulty:** Medium
+    - **Category:** Array
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=bNvIQI2wAjk)
+      , [Nick White - Java](https://www.youtube.com/watch?v=tSRFtR3pv74)
 - **[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/242_valid_anagram/valid_anagram.go)
     - **Difficulty:** Easy
     - **Category:** String
