@@ -143,6 +143,11 @@ LeetCode solutions in Go.
 - **[144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/144_binary_tree_preorder_traversal/binary_tree_preorder_traversal.go)
     - **Difficulty:** Easy
     - **Category:** Tree
+- **[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/152_maximum_product_subarray/maximum_product_subarray.go)
+  - **Difficulty**: Medium
+  - **Category:** Array, Dynamic Programming
+  - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=lXVy6YWFcRM), [Xavier Elon - Java]()
+  - **Notes:** dp: compute max and max-abs-val for each prefix subarr;
 - **[155. Min Stack](https://leetcode.com/problems/min-stack/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/155_min_stack/min_stack.go)
     - **Difficulty**: Easy
     - **Category:** Stack
