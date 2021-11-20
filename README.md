@@ -144,10 +144,18 @@ LeetCode solutions in Go.
     - **Difficulty:** Easy
     - **Category:** Tree
 - **[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/152_maximum_product_subarray/maximum_product_subarray.go)
-  - **Difficulty**: Medium
-  - **Category:** Array, Dynamic Programming
-  - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=lXVy6YWFcRM), [Xavier Elon - Java]()
-  - **Notes:** dp: compute max and max-abs-val for each prefix subarr;
+    - **Difficulty**: Medium
+    - **Category:** Array, Dynamic Programming
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=lXVy6YWFcRM)
+      , [Xavier Elon - Java](https://www.youtube.com/watch?v=QQVCKkImH_s)
+    - **Notes:** dp: compute max and max-abs-val for each prefix subarr;
+- **[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/153_find_min_in_rotated_sorted_array/find_min_in_rotated_sorted_array.go)
+    - **Difficulty**: Medium
+    - **Category:** Array, Binary
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=nIVW4P8b1VA)
+      , [Nick White - Java](https://www.youtube.com/watch?v=IzHR_U8Ly6c)
+    - **Notes:** check if half of array is sorted in order to find pivot, arr is guaranteed to be in at most two sorted
+      subarrays
 - **[155. Min Stack](https://leetcode.com/problems/min-stack/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/155_min_stack/min_stack.go)
     - **Difficulty**: Easy
     - **Category:** Stack
