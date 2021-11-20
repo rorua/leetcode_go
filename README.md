@@ -49,6 +49,13 @@ LeetCode solutions in Go.
     - **Notes:** insert each node from one list into the other
     - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=XIdigk956u0)
     - **Asked By:** Microsoft
+- **[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/33_search_in_rotated_sorted_array/search_in_rotated_sorted_array.go)
+    - **Difficulty:** Medium
+    - **Category:** Array, Binary search
+    - **Notes:** at most two sorted halfs, mid will be apart of left sorted or right sorted, if target is in range of
+      sorted portion then search it, otherwise search other half
+    - **Tutorial:** [NeetCode - Python](https://www.youtube.com/watch?v=U8XENwh8Oy8)
+      , [Nick White - Java](https://www.youtube.com/watch?v=QdVrY3stDD4)
 - **[35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/35_search_insert_position/search_insert_position.go)
     - **Difficulty:** Easy
     - **Category:** Array, Binary search
