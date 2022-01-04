@@ -20,6 +20,10 @@ LeetCode solutions in Go.
     - **Difficulty:** Easy
 - **[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/9_palindrome_number/palindrome_number.go)
     - **Difficulty:** Easy
+- **[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/11_container_with_most_water/container_with_most_water.go)
+    - **Difficulty:** Medium
+    - **Category:** Array
+    - **Tutorials** [NeetCode - Python](https://www.youtube.com/watch?v=UuiTKBwPgAo)
 - **[13. Roman To Integer](https://leetcode.com/problems/roman-to-integer/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/13_roman_to_integer/roman_to_integer.go)
     - **Difficulty:** Easy
     - **Category:** String
