@@ -256,6 +256,9 @@ LeetCode solutions in Go.
     - **Difficulty:** Easy
     - **Category:** Bit Manipulation, Dynamic Programming
     - **Tutorial:** [NeetCode - Python](https://youtu.be/RyBM56RIWrM)
+- **[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/371_sum_of_two_integers/sum_of_two_integers.go)
+    - **Difficulty:** Medium
+    - **Category:** Math, Bit Manipulation
 - **[383. Ransom Note](https://leetcode.com/problems/ransom-note/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/383_ransom_note/ransom_note.go)
     - **Difficulty:** Easy
     - **Category:** String
@@ -295,6 +298,9 @@ LeetCode solutions in Go.
 - **[1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/1480_running_sum_of_1d_array/running_sum_of_1d_array.go)
     - **Difficulty:** Easy
     - **Category:** Array
+- **[1636. Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/1636_sort_array_by_increasing_frequency/sort_array_by_increasing_frequency.go)
+    - **Difficulty:** Easy
+    - **Category:** Array, Hash Table
 - **[1790. Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/1790_check_if_one_string_swap_can_make_strings_equal/check_if_one_string_swap_can_make_strings_equal.go)
     - **Difficulty:** Easy
     - **Category:** String
@@ -303,3 +309,9 @@ LeetCode solutions in Go.
 - **[1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/1929_concatenation_of_array/concatenation_of_array.go)
     - **Difficulty:** Easy
     - **Category:** Array
+- **[2206. Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/2206_divide_array_into_equal_pairs/divide_array_into_equal_pairs.go)
+    - **Difficulty:** Easy
+    - **Category:** Array, Hash Table
+- **[2418. Sort the People](https://leetcode.com/problems/sort-the-people/)**: [solution](https://github.com/rorua/leetcode_go/blob/master/2418_sort_the_people/sort_the_people.go)
+    - **Difficulty:** Easy
+    - **Category:** Array, Hash Table

@@ -1,7 +1,5 @@
 package roman_to_integer
 
-import "fmt"
-
 func romanToInt(s string) int {
 	var romans = map[uint8]int{
 		'I': 1,
@@ -26,8 +24,4 @@ func romanToInt(s string) int {
 	}
 
 	return res
-}
-
-func main() {
-	fmt.Println(romanToInt("LVIII"))
 }
